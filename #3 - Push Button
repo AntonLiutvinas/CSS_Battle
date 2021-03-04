@@ -1,0 +1,51 @@
+<div class="rect"></div>
+<div class="cthree"></div>
+<div class="ctwo"></div>
+<div class="cone"></div>
+<style>
+  body {
+    background: #6592CF;
+  }
+  
+  .rect {
+    height: 150px;
+    width: 300px;
+    background: #243D83;
+	margin: 75px auto 0 auto;
+    z-index: 1;
+  }
+  
+  .cthree {
+    width: 250px;
+    height: 250px;   
+    background-color: #6592CF;
+    z-index: 2;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+    top: 25px;
+  }
+  
+  .ctwo {
+    height: 150px;
+    width: 150px;
+    background-color: #243D83;
+    border-radius: 50%;
+    z-index: 3;
+    position: absolute;
+    left: 125px;
+    top: 75px;
+  }
+  
+  .cone {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 4;
+    position: absolute;
+    background: #EEB850;
+    left: 175px;
+    top: 125px;
+  }
+  
+</style>
