@@ -1,0 +1,98 @@
+<div class="rect_bot"></div>
+<div class="rect_top"></div>
+<div class="rect_bot2"></div>
+<div class="in1"></div>
+<div class="ou1"></div>
+<div class="in2"></div>
+<div class="ou2"></div>
+<div class="in3"></div>
+<div class="ou3"></div>
+<style>
+  body {
+    background: #62306D;
+  }
+  .rect_bot {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+  }
+  .rect_top {
+    width: 100px;
+    height: 200px;
+    background: #F7EC7D;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+  }
+  .rect_bot2 {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+  }
+  .in1 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: #E38F66;
+    border-radius: 50%;
+    z-index: 2;
+    left: 70px;
+    bottom: 70px;
+    
+  }
+  .ou1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #AA445F;
+    border-radius: 50%;
+    left: 50px;
+    bottom: 50px;
+  }
+  .in2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: #AA445F;
+    border-radius: 50%;
+    z-index: 2;
+    left: 170px;
+    bottom: 170px;
+    
+  }
+  .ou2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #E38F66;
+    border-radius: 50%;
+    left: 150px;
+    bottom: 150px;
+  }
+  .in3 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background: #E38F66;
+    border-radius: 50%;
+    z-index: 2;
+    right: 70px;
+    bottom: 70px;
+    
+  }
+  .ou3 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: #AA445F;
+    border-radius: 50%;
+    right: 50px;
+    bottom: 50px;
+  }
+</style>
